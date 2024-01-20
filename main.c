@@ -10,13 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft/libft.h"
 #include "minilibx-linux/mlx.h"
 #include "minirt.h"
+#include <stdlib.h>
 
-// int parser(){
-//
-// }
-//
+
 
 void	init(t_minirt *rt)
 {
@@ -33,12 +32,27 @@ void	init(t_minirt *rt)
 
 int	main()
 {
-	t_minirt rt;
+	// t_minirt rt
 
+	t_list* t = getlines("teste");
+	printf("%s", (char*)(t->content));
+	t = t->next;
+	printf("%s", (char*)(t->content));
+	t = t->next;
+	printf("%s", (char*)(t->content));
+	t = t->next;
+	printf("%s", (char*)(t->content));
+	t = t->next;
+	printf("%s", (char*)(t->content));
+	t = t->next;
+	printf("%s", (char*)(t->content));
+	t = t->next;
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
 
-	init(&rt);
-	mlx_loop(rt.vars.mlx);
-
-	bye(&rt.vars);
+	// init(&rt);
+	// mlx_loop(rt.vars.mlx);
+	//
+	// bye(&rt.vars);
 	return (0);
 }

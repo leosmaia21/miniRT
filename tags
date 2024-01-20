@@ -1,0 +1,405 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	minirt.h	/^	A, C, L, sp, pl, cy$/;"	e	enum:s_parsertoken
+BONUS_SRC	libft/Makefile	/^BONUS_SRC = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c\\$/;"	m
+BUFFER_SIZE	get_next_line/get_next_line.h	21;"	d
+BUFFER_SIZE	get_next_line/get_next_line_bonus.h	21;"	d
+C	minirt.h	/^	A, C, L, sp, pl, cy$/;"	e	enum:s_parsertoken
+CC	Makefile	/^CC = cc$/;"	m
+CC	libft/Makefile	/^CC = clang$/;"	m
+CC	minilibx-linux/Makefile.mk	/^	CC = clang$/;"	m
+CC	minilibx-linux/Makefile.mk	/^CC	= gcc$/;"	m
+CC	minilibx-linux/test/Makefile.mk	/^	CC	= gcc$/;"	m
+CC	minilibx-linux/test/Makefile.mk	/^	CC = clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -glldb$/;"	m
+CFLAGS	libft/Makefile	/^CFLAGS = -Wall -Wextra -Werror -O3$/;"	m
+CFLAGS	minilibx-linux/Makefile.mk	/^CFLAGS	= -O3 -I$(INC)$/;"	m
+CFLAGS	minilibx-linux/test/Makefile.mk	/^CFLAGS= -I$(INC) -O3 -I.. -g$/;"	m
+ENV_DISPLAY	minilibx-linux/mlx_int.h	43;"	d
+ERR_NO_TRUECOLOR	minilibx-linux/mlx_int.h	45;"	d
+FT_PRINTF_H	libft/ft_printf.h	14;"	d
+GET_NEXT_LINE_BONUS_H	get_next_line/get_next_line_bonus.h	14;"	d
+GET_NEXT_LINE_H	get_next_line/get_next_line.h	14;"	d
+IM1_SX	minilibx-linux/test/main.c	7;"	d	file:
+IM1_SY	minilibx-linux/test/main.c	8;"	d	file:
+IM3_SX	minilibx-linux/test/main.c	9;"	d	file:
+IM3_SY	minilibx-linux/test/main.c	10;"	d	file:
+INC	minilibx-linux/Makefile.mk	/^INC	=%%%%$/;"	m
+INC	minilibx-linux/test/Makefile.mk	/^INC=%%%%$/;"	m
+INCLIB	minilibx-linux/test/Makefile.mk	/^INCLIB=$(INC)\/..\/lib$/;"	m
+L	minirt.h	/^	A, C, L, sp, pl, cy$/;"	e	enum:s_parsertoken
+LFLAGS	minilibx-linux/test/Makefile.mk	/^LFLAGS = -L.. -lmlx -L$(INCLIB) -lXext -lX11 -lm$/;"	m
+LIBFT_H	libft/libft.h	14;"	d
+LOCALHOST	minilibx-linux/mlx_int.h	44;"	d
+MINIRT_H	minirt.h	14;"	d
+MLXFLAGS	Makefile	/^MLXFLAGS = -L .\/minilibx-linux -lmlx -Ilmlx -lXext -lX11 -lm $/;"	m
+MLX_H	minilibx-linux/mlx.h	32;"	d
+MLX_INT_H	minilibx-linux/mlx_int.h	19;"	d
+MLX_MAX_EVENT	minilibx-linux/mlx_int.h	40;"	d
+MLX_TYPE_SHM	minilibx-linux/mlx_int.h	37;"	d
+MLX_TYPE_SHM_PIXMAP	minilibx-linux/mlx_int.h	36;"	d
+MLX_TYPE_XIMAGE	minilibx-linux/mlx_int.h	38;"	d
+NAME	Makefile	/^NAME = miniRT$/;"	m
+NAME	libft/Makefile	/^NAME = libft.a$/;"	m
+NAME	minilibx-linux/Makefile.mk	/^NAME		= libmlx.a$/;"	m
+NAME	minilibx-linux/test/Makefile.mk	/^NAME= mlx-test$/;"	m
+NAME_UNAME	minilibx-linux/Makefile.mk	/^NAME_UNAME	= libmlx_$(UNAME).a$/;"	m
+OBJ	minilibx-linux/Makefile.mk	/^OBJ	= $(addprefix $(OBJ_DIR)\/,$(SRC:%.c=%.o))$/;"	m
+OBJ	minilibx-linux/test/Makefile.mk	/^OBJ = $(SRC:%.c=%.o)$/;"	m
+OBJS	Makefile	/^OBJS = ${SRCS:%.c=$(OBJS_FOLDER)\/%.o}$/;"	m
+OBJS	libft/Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+OBJS_BONUS	libft/Makefile	/^OBJS_BONUS = $(BONUS_SRC:.c=.o)$/;"	m
+OBJS_FOLDER	Makefile	/^OBJS_FOLDER = objs$/;"	m
+OBJ_DIR	minilibx-linux/Makefile.mk	/^OBJ_DIR = obj$/;"	m
+RETURN	minilibx-linux/mlx_xpm.c	17;"	d	file:
+SIZE	minirt.h	16;"	d
+SRC	minilibx-linux/Makefile.mk	/^SRC	= mlx_init.c mlx_new_window.c mlx_pixel_put.c mlx_loop.c \\$/;"	m
+SRC	minilibx-linux/test/Makefile.mk	/^SRC = main.c$/;"	m
+SRCS	Makefile	/^SRCS = get_next_line\/get_next_line.c \\$/;"	m
+SRCS	libft/Makefile	/^SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c\\$/;"	m
+UNAME	minilibx-linux/Makefile.mk	/^UNAME = $(shell uname)$/;"	m
+UNAME	minilibx-linux/test/Makefile.mk	/^UNAME := $(shell uname)$/;"	m
+WARN_SHM_ATTACH	minilibx-linux/mlx_int.h	46;"	d
+WIN1_SX	minilibx-linux/test/main.c	5;"	d	file:
+WIN1_SY	minilibx-linux/test/main.c	6;"	d	file:
+X_ShmAttach	minilibx-linux/mlx_new_image.c	20;"	d	file:
+addr	minirt.h	/^	char		*addr;$/;"	m	struct:s_vars
+at_exit	minilibx-linux/test/run_tests.sh	/^at_exit() {$/;"	f
+bits_per_pixel	minirt.h	/^	int			bits_per_pixel;$/;"	m	struct:s_vars
+bpp	minilibx-linux/mlx_int.h	/^	int				bpp;$/;"	m	struct:s_img
+bpp1	minilibx-linux/test/main.c	/^int	bpp1;$/;"	v
+bpp2	minilibx-linux/test/main.c	/^int	bpp2;$/;"	v
+bpp3	minilibx-linux/test/main.c	/^int	bpp3;$/;"	v
+bpp4	minilibx-linux/test/main.c	/^int	bpp4;$/;"	v
+bye	utils.c	/^int	bye(t_vars *vars)$/;"	f
+checka	parser.c	/^int	checka(char **tokens)$/;"	f
+checkifnumber	parser.c	/^int checkifnumber(char *str)$/;"	f
+clean	minilibx-linux/configure	/^clean(){$/;"	f
+cmap	minilibx-linux/mlx_int.h	/^	Colormap	cmap;$/;"	m	struct:s_xvar
+col	minilibx-linux/mlx_int.h	/^	int		col;$/;"	m	struct:s_xpm_col
+color	minilibx-linux/mlx_int.h	/^	int		color;$/;"	m	struct:s_col_name
+color_map_1	minilibx-linux/test/main.c	/^int	color_map_1(void *win,int w,int h)$/;"	f
+color_map_2	minilibx-linux/test/main.c	/^int	color_map_2(unsigned char *data,int bpp,int sl,int w,int h,int endian, int type)$/;"	f
+content	libft/libft.h	/^	void			*content;$/;"	m	struct:s_list
+cy	minirt.h	/^	A, C, L, sp, pl, cy$/;"	e	enum:s_parsertoken
+data	minilibx-linux/mlx_int.h	/^	char			*data;$/;"	m	struct:s_img
+data1	minilibx-linux/test/main.c	/^char	*data1;$/;"	v
+data2	minilibx-linux/test/main.c	/^char	*data2;$/;"	v
+data3	minilibx-linux/test/main.c	/^char	*data3;$/;"	v
+data4	minilibx-linux/test/main.c	/^char	*data4;$/;"	v
+decrgb	minilibx-linux/mlx_int.h	/^	int			decrgb[6];$/;"	m	struct:s_xvar
+depth	minilibx-linux/mlx_int.h	/^	int			depth;$/;"	m	struct:s_xvar
+diameter	minirt.h	/^	float	diameter;$/;"	m	struct:s_cy
+diameter	minirt.h	/^	float	diameter;$/;"	m	struct:s_sp
+display	minilibx-linux/mlx_int.h	/^	Display		*display;$/;"	m	struct:s_xvar
+do_flush	minilibx-linux/mlx_int.h	/^	int			do_flush;$/;"	m	struct:s_xvar
+end_loop	minilibx-linux/mlx_int.h	/^	int 		end_loop;$/;"	m	struct:s_xvar
+endian	minirt.h	/^	int			endian;$/;"	m	struct:s_vars
+endian1	minilibx-linux/test/main.c	/^int	endian1;$/;"	v
+endian2	minilibx-linux/test/main.c	/^int	endian2;$/;"	v
+endian3	minilibx-linux/test/main.c	/^int	endian3;$/;"	v
+endian4	minilibx-linux/test/main.c	/^int	endian4;$/;"	v
+expose_hook	minilibx-linux/mlx_int.h	/^	int					(*expose_hook)();$/;"	m	struct:s_win_list
+expose_param	minilibx-linux/mlx_int.h	/^	void				*expose_param;$/;"	m	struct:s_win_list
+expose_win1	minilibx-linux/test/main.c	/^int	expose_win1(void *p)$/;"	f
+expose_win2	minilibx-linux/test/main.c	/^int	expose_win2(void *p)$/;"	f
+format	minilibx-linux/mlx_int.h	/^	int				format;$/;"	m	struct:s_img
+fov	minirt.h	/^	float	fov;$/;"	m	struct:s_c
+freejoin	utils.c	/^void freejoin(char **s)$/;"	f
+ft_abs	libft/ft_putnbr_fd.c	/^static int	ft_abs(int nbr)$/;"	f	file:
+ft_alloc	libft/ft_split.c	/^static void	ft_alloc(const char *s, char **f, char c)$/;"	f	file:
+ft_atoi	libft/ft_atoi.c	/^int	ft_atoi(const char *nptr)$/;"	f
+ft_bzero	get_next_line/get_next_line_utils.c	/^void	*ft_bzero(void *s, int n)$/;"	f
+ft_bzero	get_next_line/get_next_line_utils_bonus.c	/^void	*ft_bzero(void *s, int n)$/;"	f
+ft_bzero	libft/ft_bzero.c	/^void	*ft_bzero(void *s, int n)$/;"	f
+ft_calloc	get_next_line/get_next_line_utils.c	/^void	*ft_calloc(size_t nmemb, size_t size)$/;"	f
+ft_calloc	get_next_line/get_next_line_utils_bonus.c	/^void	*ft_calloc(size_t nmemb, size_t size)$/;"	f
+ft_calloc	libft/ft_calloc.c	/^void	*ft_calloc(size_t nmemb, size_t size)$/;"	f
+ft_copy	libft/ft_split.c	/^static void	ft_copy(const char *s, char **f, char c, int words)$/;"	f	file:
+ft_count_digits	libft/ft_itoa.c	/^static int	ft_count_digits(unsigned int nb, int dig)$/;"	f	file:
+ft_count_words	libft/ft_split.c	/^static int	ft_count_words(const char *s, char c)$/;"	f	file:
+ft_fill_str	libft/ft_itoa.c	/^static char	*ft_fill_str(int n, char *str, int dig, unsigned int nb)$/;"	f	file:
+ft_format	libft/ft_printf.c	/^int	ft_format(va_list args, char c)$/;"	f
+ft_isalnum	libft/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f
+ft_isalpha	libft/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f
+ft_isascii	libft/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f
+ft_isdigit	libft/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f
+ft_isprint	libft/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f
+ft_itoa	libft/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_lstadd_back	libft/ft_lstadd_back.c	/^void	ft_lstadd_back(t_list **lst, t_list *new)$/;"	f
+ft_lstadd_front	libft/ft_lstadd_front.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/;"	f
+ft_lstclear	libft/ft_lstclear.c	/^void	ft_lstclear(t_list **lst, void (*del)(void*))$/;"	f
+ft_lstdelone	libft/ft_lstdelone.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void*))$/;"	f
+ft_lstiter	libft/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f
+ft_lstlast	libft/ft_lstlast.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f
+ft_lstmap	libft/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f
+ft_lstnew	libft/ft_lstnew.c	/^t_list	*ft_lstnew(void *content)$/;"	f
+ft_lstsize	libft/ft_lstsize.c	/^int	ft_lstsize(t_list *lst)$/;"	f
+ft_memchr	libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	libft/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f
+ft_memmove	libft/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	libft/ft_memset.c	/^void	*ft_memset(void *s, int c, int n)$/;"	f
+ft_printf	libft/ft_printf.c	/^int	ft_printf(const char *str, ...)$/;"	f
+ft_printptr	libft/ft_printf_utils.c	/^int	ft_printptr(unsigned long long p)$/;"	f
+ft_printstr	libft/ft_printf.c	/^int	ft_printstr(char *s)$/;"	f
+ft_put_hex	libft/ft_printf_utils.c	/^void	ft_put_hex(unsigned int value, int *l, int upper)$/;"	f
+ft_put_nbr	libft/ft_printf_utils.c	/^void	ft_put_nbr(unsigned int value, int *l, int unsig)$/;"	f
+ft_put_ptr	libft/ft_printf_utils.c	/^void	ft_put_ptr(unsigned long long p, int *l)$/;"	f
+ft_putchar_fd	libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putendl_fd	libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putnbr_fd	libft/ft_putnbr_fd.c	/^	ft_putnbr_fd(int n, int fd)$/;"	f
+ft_putstr_fd	libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_split	libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_strbrk	libft/ft_strbrk.c	/^const char	*ft_strbrk(const char *str, const char *search)$/;"	f
+ft_strchr	get_next_line/get_next_line_utils.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strchr	get_next_line/get_next_line_utils_bonus.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strchr	libft/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strcmp	libft/ft_strcmp.c	/^int	ft_strcmp(char *str1, char *str2)$/;"	f
+ft_strcontain	libft/ft_strtrim.c	/^static int	ft_strcontain(const char *s, char c)$/;"	f	file:
+ft_strdup	libft/ft_strdup.c	/^char	*ft_strdup(const char *s1)$/;"	f
+ft_striteri	libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f
+ft_strjoin	get_next_line/get_next_line_utils.c	/^char	*ft_strjoin(char *s1, char *s2)$/;"	f
+ft_strjoin	get_next_line/get_next_line_utils_bonus.c	/^char	*ft_strjoin(char *s1, char *s2)$/;"	f
+ft_strjoin	libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dst, char *src, size_t size)$/;"	f
+ft_strlcpy	libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t size)$/;"	f
+ft_strlen	get_next_line/get_next_line_utils.c	/^int	ft_strlen(const char *s)$/;"	f
+ft_strlen	get_next_line/get_next_line_utils_bonus.c	/^int	ft_strlen(const char *s)$/;"	f
+ft_strlen	libft/ft_strlen.c	/^int	ft_strlen(const char *str)$/;"	f
+ft_strmapi	libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strnstr	libft/ft_strnstr.c	/^char	*ft_strnstr(const char *big, const char *little, size_t len)$/;"	f
+ft_strrchr	libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strtrim	libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_tolower	libft/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f
+ft_toupper	libft/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f
+gc	minilibx-linux/mlx_int.h	/^	GC					gc;$/;"	m	struct:s_win_list
+gc	minilibx-linux/mlx_int.h	/^	GC				gc;$/;"	m	struct:s_img
+gere_mouse	minilibx-linux/test/new_win.c	/^int gere_mouse(int x,int y,int button,void*toto)$/;"	f
+get_line	get_next_line/get_next_line.c	/^char	*get_line(char	*buf)$/;"	f
+get_line	get_next_line/get_next_line_bonus.c	/^char	*get_line(char	*buf)$/;"	f
+get_next_line	get_next_line/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
+get_next_line	get_next_line/get_next_line_bonus.c	/^char	*get_next_line(int fd)$/;"	f
+get_xlib_include_path	minilibx-linux/configure	/^get_xlib_include_path(){$/;"	f
+getlines	parser.c	/^t_list *getlines(char * filename)$/;"	f
+height	minilibx-linux/mlx_int.h	/^	int				height;$/;"	m	struct:s_img
+height	minirt.h	/^	float	height;$/;"	m	struct:s_cy
+hook	minilibx-linux/mlx_int.h	/^	int		(*hook)();$/;"	m	struct:s_event_list
+hooks	minilibx-linux/mlx_int.h	/^	t_event_list		hooks[MLX_MAX_EVENT];$/;"	m	struct:s_win_list
+im1	minilibx-linux/test/main.c	/^void    *im1;$/;"	v
+im2	minilibx-linux/test/main.c	/^void	*im2;$/;"	v
+im3	minilibx-linux/test/main.c	/^void	*im3;$/;"	v
+im4	minilibx-linux/test/main.c	/^void	*im4;$/;"	v
+image	minilibx-linux/mlx_int.h	/^	XImage			*image;$/;"	m	struct:s_img
+img	minirt.h	/^	void		*img;$/;"	m	struct:s_vars
+init	main.c	/^void	init(t_minirt *rt)$/;"	f
+key_hook	minilibx-linux/mlx_int.h	/^	int					(*key_hook)();$/;"	m	struct:s_win_list
+key_param	minilibx-linux/mlx_int.h	/^	void				*key_param;$/;"	m	struct:s_win_list
+key_win1	minilibx-linux/test/main.c	/^int	key_win1(int key,void *p)$/;"	f
+key_win2	minilibx-linux/test/main.c	/^int	key_win2(int key,void *p)$/;"	f
+key_win3	minilibx-linux/test/main.c	/^int	key_win3(int key,void *p)$/;"	f
+light	minirt.h	/^	float	light;$/;"	m	struct:s_l
+lighting	minirt.h	/^	float	lighting;$/;"	m	struct:s_a
+line_length	minirt.h	/^	int			line_length;$/;"	m	struct:s_vars
+local_endian	minilibx-linux/test/main.c	/^int	local_endian;$/;"	v
+log_error	minilibx-linux/configure	/^log_error(){$/;"	f
+log_error	minilibx-linux/test/run_tests.sh	/^log_error(){$/;"	f
+log_info	minilibx-linux/configure	/^log_info(){$/;"	f
+log_info	minilibx-linux/test/run_tests.sh	/^log_info(){$/;"	f
+logging	minilibx-linux/configure	/^logging(){$/;"	f
+logging	minilibx-linux/test/run_tests.sh	/^logging(){$/;"	f
+loop_hook	minilibx-linux/mlx_int.h	/^	int			(*loop_hook)();$/;"	m	struct:s_xvar
+loop_param	minilibx-linux/mlx_int.h	/^	void		*loop_param;$/;"	m	struct:s_xvar
+loops	minirt.h	/^	int		loops;$/;"	m	struct:s_minirt
+main	main.c	/^int	main()$/;"	f
+main	minilibx-linux/test/main.c	/^int	main()$/;"	f
+main	minilibx-linux/test/new_win.c	/^int main()$/;"	f
+main	minilibx-linux/test/run_tests.sh	/^main(){$/;"	f
+map	utils.c	/^double	map(double value, t_range *in, t_range *out)$/;"	f
+mask	minilibx-linux/mlx_int.h	/^	int		mask;$/;"	m	struct:s_event_list
+max	minirt.h	/^	double max;$/;"	m	struct:s_range
+min	minirt.h	/^	double min;$/;"	m	struct:s_range
+mlx	minilibx-linux/test/main.c	/^void	*mlx;$/;"	v
+mlx	minilibx-linux/test/new_win.c	/^void *mlx;$/;"	v
+mlx	minirt.h	/^	void		*mlx;$/;"	m	struct:s_vars
+mlx_X_error	minilibx-linux/mlx_new_image.c	/^int	mlx_X_error;$/;"	v
+mlx_clear_window	minilibx-linux/mlx_clear_window.c	/^int		mlx_clear_window(t_xvar *xvar,t_win_list *win)$/;"	f
+mlx_col_name	minilibx-linux/mlx_rgb.c	/^struct s_col_name mlx_col_name[] =$/;"	v	typeref:struct:s_col_name
+mlx_destroy_display	minilibx-linux/mlx_destroy_display.c	/^int	mlx_destroy_display(t_xvar *xvar)$/;"	f
+mlx_destroy_image	minilibx-linux/mlx_destroy_image.c	/^int	mlx_destroy_image(t_xvar *xvar, t_img *img)$/;"	f
+mlx_destroy_window	minilibx-linux/mlx_destroy_window.c	/^int	mlx_destroy_window(t_xvar *xvar,t_win_list *win)$/;"	f
+mlx_do_key_autorepeatoff	minilibx-linux/mlx_hook.c	/^int	mlx_do_key_autorepeatoff(t_xvar *xvar)$/;"	f
+mlx_do_key_autorepeaton	minilibx-linux/mlx_hook.c	/^int	mlx_do_key_autorepeaton(t_xvar *xvar)$/;"	f
+mlx_do_sync	minilibx-linux/mlx_hook.c	/^int	mlx_do_sync(t_xvar *xvar)$/;"	f
+mlx_expose_hook	minilibx-linux/mlx_expose_hook.c	/^int		mlx_expose_hook(t_win_list *win,int (*funct)(),void *param)$/;"	f
+mlx_ext_fullscreen	minilibx-linux/mlx_ext_randr.c	/^int			mlx_ext_fullscreen(t_xvar *xvar, t_win_list *win, int fullscreen)$/;"	f
+mlx_flush_event	minilibx-linux/mlx_flush_event.c	/^int	mlx_flush_event(t_xvar *xvar)$/;"	f
+mlx_get_color_value	minilibx-linux/mlx_get_color_value.c	/^int             mlx_get_color_value(t_xvar *xvar,int color)$/;"	f
+mlx_get_data_addr	minilibx-linux/mlx_get_data_addr.c	/^char	*mlx_get_data_addr(t_img *img,int *bits_per_pixel,$/;"	f
+mlx_get_screen_size	minilibx-linux/mlx_screen_size.c	/^int		mlx_get_screen_size(void *mlx_ptr, int *sizex, int *sizey)$/;"	f
+mlx_hook	minilibx-linux/mlx_hook.c	/^int	mlx_hook(t_win_list *win, int x_event, int x_mask, $/;"	f
+mlx_init	minilibx-linux/mlx_init.c	/^void	*mlx_init()$/;"	f
+mlx_int_anti_resize_win	minilibx-linux/mlx_int_anti_resize_win.c	/^int	mlx_int_anti_resize_win(t_xvar *xvar,Window win,int w,int h)$/;"	f
+mlx_int_deal_shm	minilibx-linux/mlx_init.c	/^int		mlx_int_deal_shm(t_xvar *xvar)$/;"	f
+mlx_int_do_nothing	minilibx-linux/mlx_int_do_nothing.c	/^int	mlx_int_do_nothing(void *param)$/;"	f
+mlx_int_egal_img	minilibx-linux/mlx_lib_xpm.c	/^int	mlx_int_egal_img(XImage *img1,XImage *img2)$/;"	f
+mlx_int_file_get_rid_comment	minilibx-linux/mlx_xpm.c	/^int	mlx_int_file_get_rid_comment(char *ptr, int size)$/;"	f
+mlx_int_get_col_name	minilibx-linux/mlx_xpm.c	/^int	mlx_int_get_col_name(char *str,int size)$/;"	f
+mlx_int_get_good_color	minilibx-linux/mlx_get_color_value.c	/^int		mlx_int_get_good_color(t_xvar *xvar,int color)$/;"	f
+mlx_int_get_line	minilibx-linux/mlx_xpm.c	/^char	*mlx_int_get_line(char *ptr,int *pos,int size)$/;"	f
+mlx_int_get_text_rgb	minilibx-linux/mlx_xpm.c	/^int	mlx_int_get_text_rgb(char *name, char *end)$/;"	f
+mlx_int_get_visual	minilibx-linux/mlx_int_get_visual.c	/^int		mlx_int_get_visual(t_xvar *xvar)$/;"	f
+mlx_int_new_image	minilibx-linux/mlx_new_image.c	/^void	*mlx_int_new_image(t_xvar *xvar,int width, int height,int format)$/;"	f
+mlx_int_new_xshm_image	minilibx-linux/mlx_new_image.c	/^void	*mlx_int_new_xshm_image(t_xvar *xvar,int width,int height,int format)$/;"	f
+mlx_int_param_ButtonPress	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_ButtonPress(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_ButtonRelease	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_ButtonRelease(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_Expose	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_Expose(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_KeyPress	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_KeyPress(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_KeyRelease	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_KeyRelease(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_MotionNotify	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_MotionNotify(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_event	minilibx-linux/mlx_int_param_event.c	/^int	(*(mlx_int_param_event[]))() =$/;"	v
+mlx_int_param_generic	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_generic(t_xvar *xvar, XEvent *ev, t_win_list *win)$/;"	f
+mlx_int_param_undef	minilibx-linux/mlx_int_param_event.c	/^int	mlx_int_param_undef()$/;"	f
+mlx_int_parse_xpm	minilibx-linux/mlx_xpm.c	/^void	*mlx_int_parse_xpm(t_xvar *xvar,void *info,int info_size,char *(*f)())$/;"	f
+mlx_int_rgb_conversion	minilibx-linux/mlx_init.c	/^int		mlx_int_rgb_conversion(t_xvar *xvar)$/;"	f
+mlx_int_set_win_event_mask	minilibx-linux/mlx_int_set_win_event_mask.c	/^int	mlx_int_set_win_event_mask(t_xvar *xvar)$/;"	f
+mlx_int_static_line	minilibx-linux/mlx_xpm.c	/^char	*mlx_int_static_line(char **xpm_data,int *pos,int size)$/;"	f
+mlx_int_str_str	minilibx-linux/mlx_int_str_to_wordtab.c	/^int	mlx_int_str_str(char *str,char *find,int len)$/;"	f
+mlx_int_str_str_cote	minilibx-linux/mlx_int_str_to_wordtab.c	/^int	mlx_int_str_str_cote(char *str,char *find,int len)$/;"	f
+mlx_int_str_to_wordtab	minilibx-linux/mlx_int_str_to_wordtab.c	/^char	**mlx_int_str_to_wordtab(char *str)$/;"	f
+mlx_int_wait_first_expose	minilibx-linux/mlx_int_wait_first_expose.c	/^int	mlx_int_wait_first_expose(t_xvar *xvar,Window win)$/;"	f
+mlx_int_xpm_f_image	minilibx-linux/mlx_lib_xpm.c	/^void		*mlx_int_xpm_f_image(t_xvar *xvar,int *width,int *height,$/;"	f
+mlx_int_xpm_set_pixel	minilibx-linux/mlx_xpm.c	/^int	mlx_int_xpm_set_pixel(t_img *img, char *data, int opp, int col, int x)$/;"	f
+mlx_key_hook	minilibx-linux/mlx_key_hook.c	/^int		mlx_key_hook(t_win_list *win,int (*funct)(),void *param)$/;"	f
+mlx_loop	minilibx-linux/mlx_loop.c	/^int			mlx_loop(t_xvar *xvar)$/;"	f
+mlx_loop_end	minilibx-linux/mlx_loop.c	/^int			mlx_loop_end(t_xvar *xvar)$/;"	f
+mlx_loop_hook	minilibx-linux/mlx_loop_hook.c	/^int	mlx_loop_hook(t_xvar *xvar,int (*funct)(),void *param)$/;"	f
+mlx_mouse_get_pos	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_get_pos(t_xvar *xvar, t_win_list *win, \\$/;"	f
+mlx_mouse_hide	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_hide(t_xvar *xvar, t_win_list *win)$/;"	f
+mlx_mouse_hook	minilibx-linux/mlx_mouse_hook.c	/^int		mlx_mouse_hook(t_win_list *win,int (*funct)(),void *param)$/;"	f
+mlx_mouse_move	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_move(t_xvar *xvar, t_win_list *win, int x, int y)$/;"	f
+mlx_mouse_show	minilibx-linux/mlx_mouse.c	/^int		mlx_mouse_show(t_xvar *xvar, t_win_list *win)$/;"	f
+mlx_new_image	minilibx-linux/mlx_new_image.c	/^void	*mlx_new_image(t_xvar *xvar,int width, int height)$/;"	f
+mlx_new_image2	minilibx-linux/mlx_new_image.c	/^void	*mlx_new_image2(t_xvar *xvar,int width, int height)$/;"	f
+mlx_new_window	minilibx-linux/mlx_new_window.c	/^void	*mlx_new_window(t_xvar *xvar,int size_x,int size_y,char *title)$/;"	f
+mlx_pixel_put	minilibx-linux/mlx_pixel_put.c	/^int		mlx_pixel_put(t_xvar *xvar,t_win_list *win,$/;"	f
+mlx_put_image_to_window	minilibx-linux/mlx_put_image_to_window.c	/^int	mlx_put_image_to_window(t_xvar *xvar,t_win_list *win,t_img *img,$/;"	f
+mlx_set_font	minilibx-linux/mlx_set_font.c	/^void	mlx_set_font(t_xvar *xvar, t_win_list *win, char *name)$/;"	f
+mlx_string_put	minilibx-linux/mlx_string_put.c	/^int		mlx_string_put(t_xvar *xvar,t_win_list *win,$/;"	f
+mlx_xpm_file_to_image	minilibx-linux/mlx_lib_xpm.c	/^void	*mlx_xpm_file_to_image(t_xvar *xvar,char *filename,$/;"	f
+mlx_xpm_file_to_image	minilibx-linux/mlx_xpm.c	/^void	*mlx_xpm_file_to_image(t_xvar *xvar,char *file,int *width,int *height)$/;"	f
+mlx_xpm_to_image	minilibx-linux/mlx_lib_xpm.c	/^void	*mlx_xpm_to_image(t_xvar *xvar,char **data,int *width,int *height)$/;"	f
+mlx_xpm_to_image	minilibx-linux/mlx_xpm.c	/^void	*mlx_xpm_to_image(t_xvar *xvar,char **xpm_data,int *width,int *height)$/;"	f
+mouse_hook	minilibx-linux/mlx_int.h	/^	int					(*mouse_hook)();$/;"	m	struct:s_win_list
+mouse_param	minilibx-linux/mlx_int.h	/^	void				*mouse_param;$/;"	m	struct:s_win_list
+mouse_win1	minilibx-linux/test/main.c	/^int	mouse_win1(int button,int x,int y, void *p)$/;"	f
+mouse_win2	minilibx-linux/test/main.c	/^int	mouse_win2(int button,int x,int y, void *p)$/;"	f
+mouse_win3	minilibx-linux/test/main.c	/^int	mouse_win3(int x,int y, void *p)$/;"	f
+name	minilibx-linux/mlx_int.h	/^	char	*name;$/;"	m	struct:s_col_name
+name	minilibx-linux/mlx_int.h	/^	int		name;$/;"	m	struct:s_xpm_col
+name	minirt.h	/^	int		name;$/;"	m	struct:s_minirt
+next	libft/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+next	minilibx-linux/mlx_int.h	/^	struct s_win_list	*next;$/;"	m	struct:s_win_list	typeref:struct:s_win_list::s_win_list
+norm_vector	minirt.h	/^	float	norm_vector[3];$/;"	m	struct:s_cy
+norm_vector	minirt.h	/^	float	norm_vector[3];$/;"	m	struct:s_pl
+orientation	minirt.h	/^	float	orientation[3];$/;"	m	struct:s_c
+param	minilibx-linux/mlx_int.h	/^	void	*param;$/;"	m	struct:s_event_list
+parse_args	minilibx-linux/configure	/^parse_args(){$/;"	f
+pix	minilibx-linux/mlx_int.h	/^	Pixmap			pix;$/;"	m	struct:s_img
+pl	minirt.h	/^	A, C, L, sp, pl, cy$/;"	e	enum:s_parsertoken
+printchar	libft/ft_printf_utils.c	/^int	printchar(char c)$/;"	f
+private_cmap	minilibx-linux/mlx_int.h	/^	int			private_cmap;$/;"	m	struct:s_xvar
+pshm_format	minilibx-linux/mlx_int.h	/^	int			pshm_format;$/;"	m	struct:s_xvar
+read_line	get_next_line/get_next_line.c	/^char	*read_line(int fd, char *buf)$/;"	f
+read_line	get_next_line/get_next_line_bonus.c	/^char	*read_line(int fd, char *buf)$/;"	f
+rgb	minirt.h	/^	int		rgb[3];$/;"	m	struct:s_a
+rgb	minirt.h	/^	int		rgb[3];$/;"	m	struct:s_cy
+rgb	minirt.h	/^	int		rgb[3];$/;"	m	struct:s_pl
+rgb	minirt.h	/^	int		rgb[3];$/;"	m	struct:s_sp
+root	minilibx-linux/mlx_int.h	/^	Window		root;$/;"	m	struct:s_xvar
+s_a	minirt.h	/^typedef struct s_a{$/;"	s
+s_c	minirt.h	/^typedef struct s_c{$/;"	s
+s_col_name	minilibx-linux/mlx_int.h	/^struct	s_col_name$/;"	s
+s_cy	minirt.h	/^typedef struct s_cy{$/;"	s
+s_event_list	minilibx-linux/mlx_int.h	/^typedef struct	s_event_list$/;"	s
+s_img	minilibx-linux/mlx_int.h	/^typedef struct	s_img$/;"	s
+s_l	minirt.h	/^typedef struct s_l{$/;"	s
+s_list	libft/libft.h	/^typedef struct s_list$/;"	s
+s_minirt	minirt.h	/^typedef struct s_minirt{$/;"	s
+s_parsertoken	minirt.h	/^typedef enum s_parsertoken{$/;"	g
+s_pl	minirt.h	/^typedef struct s_pl{$/;"	s
+s_range	minirt.h	/^typedef struct s_range{$/;"	s
+s_sp	minirt.h	/^typedef struct s_sp{$/;"	s
+s_vars	minirt.h	/^typedef struct s_vars {$/;"	s
+s_win_list	minilibx-linux/mlx_int.h	/^typedef struct	s_win_list$/;"	s
+s_xpm_col	minilibx-linux/mlx_int.h	/^typedef	struct	s_xpm_col$/;"	s
+s_xvar	minilibx-linux/mlx_int.h	/^typedef struct	s_xvar$/;"	s
+saved_mode	minilibx-linux/mlx_ext_randr.c	/^RRMode	saved_mode = 0;$/;"	v
+screen	minilibx-linux/mlx_int.h	/^	int			screen;$/;"	m	struct:s_xvar
+shiftbuffer	get_next_line/get_next_line.c	/^char	*shiftbuffer(char *buf)$/;"	f
+shiftbuffer	get_next_line/get_next_line_bonus.c	/^char	*shiftbuffer(char *buf)$/;"	f
+shm	minilibx-linux/mlx_int.h	/^	XShmSegmentInfo	shm;$/;"	m	struct:s_img
+shm_att_pb	minilibx-linux/mlx_new_image.c	/^int	shm_att_pb(Display *d,XErrorEvent *ev)$/;"	f
+show_help	minilibx-linux/configure	/^show_help(){$/;"	f
+sigint_handler	minilibx-linux/test/run_tests.sh	/^sigint_handler(){$/;"	f
+size_line	minilibx-linux/mlx_int.h	/^	int				size_line;$/;"	m	struct:s_img
+sl1	minilibx-linux/test/main.c	/^int	sl1;$/;"	v
+sl2	minilibx-linux/test/main.c	/^int	sl2;$/;"	v
+sl3	minilibx-linux/test/main.c	/^int	sl3;$/;"	v
+sl4	minilibx-linux/test/main.c	/^int	sl4;$/;"	v
+sp	minirt.h	/^	A, C, L, sp, pl, cy$/;"	e	enum:s_parsertoken
+strlcpy_is_not_posix	minilibx-linux/mlx_xpm.c	/^unsigned int	strlcpy_is_not_posix(char *dest, char *src, unsigned int size)$/;"	f
+t_a	minirt.h	/^}	t_a;$/;"	t	typeref:struct:s_a
+t_c	minirt.h	/^}	t_c;$/;"	t	typeref:struct:s_c
+t_cy	minirt.h	/^}	t_cy;$/;"	t	typeref:struct:s_cy
+t_event_list	minilibx-linux/mlx_int.h	/^}				t_event_list;$/;"	t	typeref:struct:s_event_list
+t_img	minilibx-linux/mlx_int.h	/^}				t_img;$/;"	t	typeref:struct:s_img
+t_l	minirt.h	/^}	t_l;$/;"	t	typeref:struct:s_l
+t_list	libft/libft.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_minirt	minirt.h	/^}	t_minirt;$/;"	t	typeref:struct:s_minirt
+t_parsertoken	minirt.h	/^} t_parsertoken;$/;"	t	typeref:enum:s_parsertoken
+t_pl	minirt.h	/^}	t_pl;$/;"	t	typeref:struct:s_pl
+t_range	minirt.h	/^}	t_range;$/;"	t	typeref:struct:s_range
+t_sp	minirt.h	/^}	t_sp;$/;"	t	typeref:struct:s_sp
+t_vars	minirt.h	/^}	t_vars;$/;"	t	typeref:struct:s_vars
+t_win_list	minilibx-linux/mlx_int.h	/^}				t_win_list;$/;"	t	typeref:struct:s_win_list
+t_xpm_col	minilibx-linux/mlx_int.h	/^}				t_xpm_col;$/;"	t	typeref:struct:s_xpm_col
+t_xvar	minilibx-linux/mlx_int.h	/^}				t_xvar;$/;"	t	typeref:struct:s_xvar
+test_default_main	minilibx-linux/test/run_tests.sh	/^test_default_main(){$/;"	f
+type	minilibx-linux/mlx_int.h	/^	int				type;$/;"	m	struct:s_img
+type	minirt.h	/^	char	*type;$/;"	m	struct:s_a
+type	minirt.h	/^	char	*type;$/;"	m	struct:s_c
+type	minirt.h	/^	char	*type;$/;"	m	struct:s_cy
+type	minirt.h	/^	char	*type;$/;"	m	struct:s_l
+type	minirt.h	/^	char	*type;$/;"	m	struct:s_pl
+type	minirt.h	/^	char	*type;$/;"	m	struct:s_sp
+use_xshm	minilibx-linux/mlx_int.h	/^	int			use_xshm;$/;"	m	struct:s_xvar
+vars	minirt.h	/^	t_vars	vars;$/;"	m	struct:s_minirt
+verifytokens	parser.c	/^int	verifytokens(t_list *list)$/;"	f
+visual	minilibx-linux/mlx_int.h	/^	Visual		*visual;$/;"	m	struct:s_xvar
+width	minilibx-linux/mlx_int.h	/^	int				width;$/;"	m	struct:s_img
+win	minirt.h	/^	void		*win;$/;"	m	struct:s_vars
+win1	minilibx-linux/test/main.c	/^void	*win1;$/;"	v
+win1	minilibx-linux/test/new_win.c	/^void *win1;$/;"	v
+win2	minilibx-linux/test/main.c	/^void    *win2;$/;"	v
+win2	minilibx-linux/test/new_win.c	/^void *win2;$/;"	v
+win3	minilibx-linux/test/main.c	/^void    *win3;$/;"	v
+win_count	minilibx-linux/mlx_loop.c	/^static int	win_count(t_xvar *xvar)$/;"	f	file:
+win_list	minilibx-linux/mlx_int.h	/^	t_win_list	*win_list;$/;"	m	struct:s_xvar
+window	minilibx-linux/mlx_int.h	/^	Window				window;$/;"	m	struct:s_win_list
+wm_delete_window	minilibx-linux/mlx_int.h	/^	Atom		wm_delete_window;$/;"	m	struct:s_xvar
+wm_protocols	minilibx-linux/mlx_int.h	/^	Atom		wm_protocols;$/;"	m	struct:s_xvar
+xpm1_x	minilibx-linux/test/main.c	/^int	xpm1_x;$/;"	v
+xpm1_y	minilibx-linux/test/main.c	/^int	xpm1_y;$/;"	v
+xyz	minirt.h	/^	float	xyz[3];$/;"	m	struct:s_c
+xyz	minirt.h	/^	float	xyz[3];$/;"	m	struct:s_cy
+xyz	minirt.h	/^	float	xyz[3];$/;"	m	struct:s_l
+xyz	minirt.h	/^	float	xyz[3];$/;"	m	struct:s_pl
+xyz	minirt.h	/^	float	xyz[3];$/;"	m	struct:s_sp
+zoom	minirt.h	/^	double	zoom;$/;"	m	struct:s_minirt

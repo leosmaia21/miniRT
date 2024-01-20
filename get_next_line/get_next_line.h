@@ -21,11 +21,11 @@
 #  define BUFFER_SIZE 42
 # endif
 
-void		*ft_calloc(size_t nmemb, size_t size);
-int			ft_strlen(const char *s);
-char		*ft_strjoin(char *s1, char *s2);
-char		*ft_strchr(const char *s, int c);
-unsigned	int	ft_strlcpy(char *dst, const char *src, size_t size);
+// void		*ft_calloc(size_t nmemb, size_t size);
+// int			ft_strlen(const char *s);
+// char		*ft_strjoin(char *s1, char *s2);
+// char		*ft_strchr(const char *s, int c);
+// s	ft_strlcpy(char *dst, const char *src, size_t size);
 char		*get_next_line(int fd);
-void		*ft_bzero(void *s, int n);
+// void		*ft_bzero(void *s, int n);
 #endif

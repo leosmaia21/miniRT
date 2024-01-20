@@ -1,8 +1,9 @@
 CC = cc
 MLXFLAGS = -L ./minilibx-linux -lmlx -Ilmlx -lXext -lX11 -lm 
-SRCS = get_next_line/get_next_line.c get_next_line/get_next_line_utils.c\
+SRCS = get_next_line/get_next_line.c \
 	   main.c utils.c
-CFLAGS = -O3 -glldb  -Wall -Wextra -Werror
+# CFLAGS = -O3 -glldb  -Wall -Wextra -Werror
+CFLAGS =  -glldb
 OBJS_FOLDER = objs
 
 
