@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "minirt.h"
+#include <math.h>
 
 double	map(double value, t_range *in, t_range *out)
 {
@@ -20,12 +21,16 @@ double	map(double value, t_range *in, t_range *out)
 void freejoin(char **s)
 {
 	char	**x;
+	int		i;
 	
+	i = 0;
 	x = s;
-	while (*s)
+	if (!x)
+		return ;
+	while (s[i])
 	{
-		free(*s);
-		s++;
+		free(s[i]);
+		i++;
 	}
 	free(x);
 }
@@ -55,6 +60,27 @@ float	ft_atof(const char *s)
 	if (negative)
 		a *= -1;
 	return (a);
+}
+
+int checkifint(char *str,int range, int lower, int upper)
+{
+	int	i;
+
+	i = -1;
+	while(str[++i])
+	{
+		if (i == 0 && str[i] == '-')
+			continue;
+		else if (!ft_isdigit(str[i]))
+			return (0);
+	}
+	if (range)
+	{
+		if (ft_atoi(str) <= upper && ft_atoi(str) >= lower)
+			return (1);
+		return (0);
+	}
+	return (1);
 }
 
 int	bye(t_vars *vars)

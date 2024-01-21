@@ -13,7 +13,6 @@
 #include "libft/libft.h"
 #include "minilibx-linux/mlx.h"
 #include "minirt.h"
-#include <stdlib.h>
 
 
 
@@ -33,20 +32,26 @@ void	init(t_minirt *rt)
 int	main()
 {
 	// t_minirt rt
+	int	fd;
+	t_list	*tokens;
 
-	t_list* t = getlines("teste");
-	printf("%s", (char*)(t->content));
-	t = t->next;
-	printf("%s", (char*)(t->content));
-	t = t->next;
-	printf("%s", (char*)(t->content));
-	t = t->next;
-	printf("%s", (char*)(t->content));
-	t = t->next;
-	printf("%s", (char*)(t->content));
-	t = t->next;
-	printf("%s", (char*)(t->content));
-	t = t->next;
+	fd = open("teste", O_RDONLY);
+	t_list* t = getlines(fd);
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
+	// printf("%s", (char*)(t->content));
+	// t = t->next;
+	tokens = verifytokens(t);
+	if (tokens)
+		ft_lstclear(&tokens, free);
 	// printf("%s", (char*)(t->content));
 	// t = t->next;
 

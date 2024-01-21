@@ -32,47 +32,28 @@ typedef enum s_parsertoken{
 	A, C, L, sp, pl, cy
 } t_parsertoken;
 
-typedef struct s_a{
+typedef struct s_token{
 	char	*type;
-	float	lighting;
-	int		rgb[3];
-}	t_a;
+	float	a_lighting;
+	int		a_rgb[3];
+	float	c_xyz[3];
+	float	c_orientation[3];
+	float	c_fov;
+	float	l_xyz[3];
+	float	l_brightness;
+	float	sp_xyz[3];
+	float	sp_diameter;
+	int		sp_rgb[3];
+	float	pl_xyz[3];
+	float	pl_vector[3];
+	int		pl_rgb[3];
+	float	cy_xyz[3];
+	float	cy_vector[3];
+	float	cy_diameter;
+	float	cy_height;
+	int		cy_rgb[3];
+}	t_token;
 
-typedef struct s_c{
-	char	*type;
-	float	xyz[3];
-	float	orientation[3];
-	float	fov;
-}	t_c;
-
-typedef struct s_l{
-	char	*type;
-	float	xyz[3];
-	float	light;
-}	t_l;
-
-typedef struct s_sp{
-	char	*type;
-	float	xyz[3];
-	float	diameter;
-	int		rgb[3];
-}	t_sp;
-
-typedef struct s_pl{
-	char	*type;
-	float	xyz[3];
-	float	norm_vector[3];
-	int		rgb[3];
-}	t_pl;
-
-typedef struct s_cy{
-	char	*type;
-	float	xyz[3];
-	float	norm_vector[3];
-	float	diameter;
-	float	height;
-	int		rgb[3];
-}	t_cy;
 
 typedef struct s_vars {
 	void		*mlx;
@@ -92,8 +73,10 @@ typedef struct s_minirt{
 }	t_minirt;
 
 
-t_list *getlines(char * filename);
+t_list *getlines(int fd);
 float	ft_atof(const char *s);
+t_list	*verifytokens(t_list *list);
+int 	checkifint(char *str,int range, int lower, int upper);
 void	freejoin(char **s);
 double	map(double value, t_range *in, t_range *out);
 int		bye(t_vars *vars);
